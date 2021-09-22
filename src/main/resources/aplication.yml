@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/querydsl
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+
+  jpa:
+    hibernate:
+      ddl-auto: create     #테이블자동생성
+    properties:
+      hibernate:
+        format_sql: true
