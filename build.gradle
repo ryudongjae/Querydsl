@@ -40,8 +40,10 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
-def querydslDir = "$buildDir/generated/querydsl"
 apply plugin: "com.ewerk.gradle.plugins.querydsl"
+//querydsl 추가 시작
+def querydslDir = "$buildDir/generated/querydsl"
+
 querydsl {
 	jpa = true
 	querydslSourcesDir = querydslDir
