@@ -1,5 +1,7 @@
 package com.example.Querydsl;
 
+import com.example.Querydsl.domain.Post;
+import com.example.Querydsl.repository.PostRepository;
 import org.junit.After;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

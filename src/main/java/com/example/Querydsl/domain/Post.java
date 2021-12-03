@@ -1,4 +1,4 @@
-package com.example.Querydsl;
+package com.example.Querydsl.domain;
 
 import lombok.*;
 
